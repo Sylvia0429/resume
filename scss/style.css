@@ -1,0 +1,316 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: MicrosoftJhengHei,sans-serif;
+  background: #fafafa;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: #1736dc;
+  padding: 38px;
+}
+
+.wrap {
+  width: 1025px;
+  margin: 0 auto;
+}
+
+/*im header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  width: 1025px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img-headerShape.png);
+}
+
+.header .header-left {
+  text-align: center;
+  margin: 125px 150px 0px 135px;
+}
+
+.header .header-left h1 {
+  font-size: 32px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.header .header-left p {
+  line-height: 1.5em;
+  color: #5e5e5e;
+}
+
+.header .header-left p:hover {
+  color: #f257a5;
+}
+
+.header .header-right {
+  position: relative;
+  top: 32%;
+  color: #fff;
+}
+
+.header .header-right a {
+  color: #fff;
+}
+
+.header .header-right a:hover {
+  text-decoration: underline;
+  color: #f2df7b;
+}
+
+.header .header-right li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.header .header-right li img {
+  margin-right: 15px;
+}
+
+.header .header-right .behance img {
+  width: 30px;
+}
+
+/*im skill*/
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill .box .box1, .skill .box .box2, .skill .box .box3 {
+  text-align: center;
+  margin: 20px;
+  background: #fff;
+  width: 284px;
+  height: 276px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  color: #4a4a4a;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.skill .box .box1::before, .skill .box .box2::before, .skill .box .box3::before {
+  content: "";
+  background-color: orange;
+  height: 6px;
+  width: 284px;
+}
+
+.skill .box .box1:hover, .skill .box .box2:hover, .skill .box .box3:hover {
+  -webkit-box-shadow: 1px 1px 7px rgba(98, 98, 98, 0.5);
+          box-shadow: 1px 1px 7px rgba(98, 98, 98, 0.5);
+  -webkit-transform: translate(-5px, -5px);
+          transform: translate(-5px, -5px);
+}
+
+.skill .box .box1 img, .skill .box .box2 img, .skill .box .box3 img {
+  margin-bottom: 20px;
+  height: 79px;
+}
+
+.skill .box .box1 h3, .skill .box .box2 h3, .skill .box .box3 h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.skill .box .box1 ul, .skill .box .box2 ul, .skill .box .box3 ul {
+  text-align: left;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+
+/*im experience*/
+/*im work*/
+.work {
+  margin-bottom: 80px;
+}
+
+.work h2 {
+  color: #f257a5;
+}
+
+.work ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work ul .work1, .work ul .work2, .work ul .work3 {
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+  margin: 0 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.work ul .work1:hover, .work ul .work2:hover, .work ul .work3:hover {
+  -webkit-box-shadow: 0px 0px 10px rgba(98, 98, 98, 0.7);
+          box-shadow: 0px 0px 10px rgba(98, 98, 98, 0.7);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.work ul .work1 .work-title, .work ul .work2 .work-title, .work ul .work3 .work-title {
+  font-size: 18px;
+  color: #000;
+  padding: 15px 5px;
+}
+
+.work ul .work1 p, .work ul .work2 p, .work ul .work3 p {
+  font-size: 15px;
+  color: #4a4a4a;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+.work ul .img {
+  width: 284px;
+  height: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+
+.work ul .work1 .img {
+  background-color: #f39ad3;
+  background-image: url(../assets/logo-work-1.png);
+  background-position: 80% 80%;
+}
+
+.work ul .work2 .img {
+  background-color: #424242;
+  background-image: url(../assets/logo-work-2.png);
+  background-position: 50% 50%;
+}
+
+.work ul .work3 .img {
+  background-color: #8ad7fa;
+  background-image: url(../assets/logo-work-3.png);
+  background-position: 50% 50%;
+}
+
+/*im about*/
+.about-me {
+  margin-bottom: 80px;
+}
+
+.about-me h2 {
+  color: #f257a5;
+}
+
+.about-me .aboutdetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-me .aboutdetail img {
+  width: 260px;
+  margin-right: 50px;
+}
+
+.about-me .aboutdetail p {
+  font-size: 16px;
+  width: 49%;
+  line-height: 1.5em;
+  color: #5e5e5e;
+  margin-top: 30px;
+}
+
+/*im footer*/
+.footer {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 42px;
+  width: 100%;
+  height: 87px;
+  background-image: url(../assets/img-Looper-bg.png);
+}
+/*# sourceMappingURL=style.css.map */
