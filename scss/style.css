@@ -177,7 +177,7 @@ h2 {
   width: 284px;
 }
 
-.skill .box .box1:hover, .skill .box .box2:hover, .skill .box .box3:hover {
+.skill .box .box1:hover, .skill .box .box1:active, .skill .box .box2:hover, .skill .box .box2:active, .skill .box .box3:hover, .skill .box .box3:active {
   -webkit-box-shadow: 1px 1px 7px rgba(98, 98, 98, 0.5);
           box-shadow: 1px 1px 7px rgba(98, 98, 98, 0.5);
   -webkit-transform: translate(-5px, -5px);
@@ -228,7 +228,7 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.work ul .work1:hover, .work ul .work2:hover, .work ul .work3:hover {
+.work ul .work1:hover, .work ul .work1:active, .work ul .work2:hover, .work ul .work2:active, .work ul .work3:hover, .work ul .work3:active {
   -webkit-box-shadow: 0px 0px 10px rgba(98, 98, 98, 0.7);
           box-shadow: 0px 0px 10px rgba(98, 98, 98, 0.7);
   -webkit-transform: scale(1.03);
