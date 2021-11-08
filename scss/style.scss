@@ -133,11 +133,16 @@ h2{
             box-shadow: 0 0 1px rgba(0,0,0,.7);
             color: #4a4a4a;
             transition: all 0.3s ease;
-            &::before{
+            position: relative;
+            overflow: hidden;
+            &::after{
                 content: "";
                 background-color: orange;
                 height: 6px;
                 width: 284px;
+                position: absolute;
+                bottom: 0;
+                left: 0px; 
             }
             &:hover, &:active{
                 box-shadow: 1px 1px 7px rgba(98,98,98,.5);
@@ -156,6 +161,24 @@ h2{
                 line-height: 1.2em;
                 font-size: 15px;
             }
+        }
+        .box2::after{
+            content: "";
+                background-color: #539E43;
+                height: 6px;
+                width: 284px;
+                position: absolute;
+                bottom: 0;
+                left: 0px; 
+        }
+        .box3::after{
+            content: "";
+                background-color: #6762A6;
+                height: 6px;
+                width: 284px;
+                position: absolute;
+                bottom: 0;
+                left: 0px; 
         }
     } 
 }

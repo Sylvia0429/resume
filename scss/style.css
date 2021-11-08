@@ -168,13 +168,18 @@ h2 {
   color: #4a4a4a;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.skill .box .box1::before, .skill .box .box2::before, .skill .box .box3::before {
+.skill .box .box1::after, .skill .box .box2::after, .skill .box .box3::after {
   content: "";
   background-color: orange;
   height: 6px;
   width: 284px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
 }
 
 .skill .box .box1:hover, .skill .box .box1:active, .skill .box .box2:hover, .skill .box .box2:active, .skill .box .box3:hover, .skill .box .box3:active {
@@ -198,6 +203,26 @@ h2 {
   text-align: left;
   line-height: 1.2em;
   font-size: 15px;
+}
+
+.skill .box .box2::after {
+  content: "";
+  background-color: #539E43;
+  height: 6px;
+  width: 284px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+
+.skill .box .box3::after {
+  content: "";
+  background-color: #6762A6;
+  height: 6px;
+  width: 284px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
 }
 
 /*im experience*/
