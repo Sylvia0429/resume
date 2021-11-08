@@ -139,7 +139,7 @@ h2{
                 height: 6px;
                 width: 284px;
             }
-            &:hover{
+            &:hover, &:active{
                 box-shadow: 1px 1px 7px rgba(98,98,98,.5);
                 transform: translate(-5px, -5px);
             }
@@ -175,7 +175,7 @@ h2{
             margin:  0 10px;
             border-radius: 10px;
             transition: all 0.3s ease;
-            &:hover{
+            &:hover, &:active{
                 box-shadow: 0px 0px 10px rgba(98,98,98,.7);
                 transform: scale(1.03);
             }
