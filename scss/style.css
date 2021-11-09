@@ -110,7 +110,7 @@ h2 {
 
 .header .header-right {
   position: relative;
-  top: 32%;
+  top: 36%;
   color: #fff;
 }
 
@@ -130,7 +130,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .header .header-right li img {
@@ -226,6 +226,97 @@ h2 {
 }
 
 /*im experience*/
+.timeboxes {
+  height: 510px;
+  position: relative;
+  width: 62%;
+  margin: 0 auto;
+  margin-top: 52px;
+}
+
+.timeboxes::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background-color: #D8D8D8;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timeboxes::after {
+  content: "";
+  width: 32px;
+  height: 37px;
+  background-image: url(../assets/dot-start.png);
+  position: absolute;
+  top: -52px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timebox {
+  border: 1px solid #f257a5;
+  border-radius: 10px;
+  width: 280px;
+  height: 190px;
+  margin: 0 auto;
+  float: left;
+  padding: 20px;
+  text-align: right;
+  clear: both;
+}
+
+.timebox:not(:first-child) {
+  margin-top: -60px;
+}
+
+.timebox h5 {
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 12px;
+  position: relative;
+  color: #4A4A4A;
+}
+
+.timebox h5::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 28px;
+  background-image: url(../assets/dot-timeItem.png);
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.timebox span {
+  display: block;
+  font-size: 18px;
+  color: #8A1737;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.timebox .title {
+  color: #4A4A4A;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.timebox p {
+  line-height: 1.2em;
+  color: #9B9B9B;
+  font-size: 16px;
+}
+
+.timebox:nth-child(2n) {
+  text-align-last: left;
+  float: right;
+}
+
 /*im work*/
 .work {
   margin-bottom: 80px;
