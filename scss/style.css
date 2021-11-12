@@ -229,7 +229,7 @@ h2 {
 .timeboxes {
   height: 510px;
   position: relative;
-  width: 62%;
+  width: 700px;
   margin: 0 auto;
   margin-top: 52px;
 }
@@ -291,6 +291,7 @@ h2 {
   background-image: url(../assets/dot-timeItem.png);
   -webkit-transform: translateY(-20%);
           transform: translateY(-20%);
+  right: -103px;
 }
 
 .timebox span {
@@ -316,6 +317,17 @@ h2 {
 .timebox:nth-child(2n) {
   text-align-last: left;
   float: right;
+}
+
+.timebox:nth-child(2n) h5::before {
+  left: -103px;
+}
+
+.border-bottom {
+  width: 30px;
+  height: 4px;
+  background: #D8D8D8;
+  margin: 0 auto;
 }
 
 /*im work*/

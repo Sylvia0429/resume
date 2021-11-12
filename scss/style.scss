@@ -186,7 +186,7 @@ h2{
 .timeboxes{
     height: 510px;
     position: relative;
-    width: 62%;
+    width: 700px;
     margin: 0 auto;
     margin-top: 52px;
     &::before{
@@ -237,7 +237,7 @@ h2{
             height: 28px;
             background-image: url(../assets/dot-timeItem.png);
             transform: translateY(-20%);
-            
+            right: -103px;
         }
     }
     span{
@@ -261,7 +261,16 @@ h2{
         text-align-last: left;
         float: right;
     }
+    &:nth-child(2n) h5::before { 
+        left: -103px; 
+    }
 }
+.border-bottom{
+    width: 30px;
+    height: 4px;
+    background: #D8D8D8;
+    margin: 0 auto;
+  }
 
 /*im work*/
 .work{
