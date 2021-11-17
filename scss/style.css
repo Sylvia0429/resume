@@ -203,6 +203,8 @@ h2 {
   text-align: left;
   line-height: 1.2em;
   font-size: 15px;
+  list-style: disc;
+  margin-left: 5px;
 }
 
 .skill .box .box2::after {
