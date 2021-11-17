@@ -221,6 +221,10 @@ h2{
     padding: 20px;
     text-align: right;
     clear: both;
+    transition: all 0.3s ease;
+    &:hover , &:active{
+        box-shadow: 0 0 5px #f257a5;
+    }
     &:not(:first-child) {
         margin-top: -60px;
       }

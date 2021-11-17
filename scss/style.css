@@ -269,6 +269,13 @@ h2 {
   padding: 20px;
   text-align: right;
   clear: both;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.timebox:hover, .timebox:active {
+  -webkit-box-shadow: 0 0 5px #f257a5;
+          box-shadow: 0 0 5px #f257a5;
 }
 
 .timebox:not(:first-child) {
