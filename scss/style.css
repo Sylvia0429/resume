@@ -324,8 +324,8 @@ h2 {
 }
 
 .timebox:nth-child(2n) {
-  text-align-last: left;
   float: right;
+  text-align: left;
 }
 
 .timebox:nth-child(2n) h5::before {
