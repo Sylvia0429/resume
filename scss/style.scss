@@ -307,6 +307,14 @@ h2{
                 padding-bottom: 15px;
                 padding-left: 5px;
             }
+            span{
+                float: right;
+                position: relative;
+                bottom: 0;
+                font-size: 13px;
+                color: #000;
+                opacity:0.5;
+            }
         }
         .img{
                 width: 284px;
@@ -317,17 +325,17 @@ h2{
 
         .work1 .img{
                 background-color: #f39ad3;
-                background-image: url(../assets/logo-work-1.png);
+                background-image: url(../assets/work1.png);
                 background-position: 80% 80%;
         }
         .work2 .img{
             background-color: #424242;
-            background-image: url(../assets/logo-work-2.png);
+            background-image: url(../assets/nini.png);
             background-position: 50% 50%;
         }
         .work3 .img{
             background-color: #8ad7fa;
-            background-image: url(../assets/logo-work-3.png);
+            background-image: url(../assets/social.png);
             background-position: 50% 50%;
         }
     }
@@ -343,6 +351,7 @@ h2{
         justify-content: center;
         img{
             width: 260px;
+            height: 335px;
             margin-right: 50px;
         }
         p{
