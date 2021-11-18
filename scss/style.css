@@ -437,6 +437,9 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about-me .aboutdetail img {
@@ -450,7 +453,6 @@ h2 {
   width: 49%;
   line-height: 1.5em;
   color: #5e5e5e;
-  margin-top: 30px;
 }
 
 /*im footer*/
