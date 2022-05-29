@@ -324,8 +324,8 @@ h2 {
 }
 
 .timebox:nth-child(2n) {
-  text-align-last: left;
   float: right;
+  text-align: left;
 }
 
 .timebox:nth-child(2n) h5::before {
@@ -386,6 +386,16 @@ h2 {
   padding-left: 5px;
 }
 
+.work ul .work1 span, .work ul .work2 span, .work ul .work3 span {
+  float: right;
+  position: relative;
+  bottom: 0;
+  font-size: 13px;
+  color: #000;
+  opacity: 0.5;
+  padding-right: 5px;
+}
+
 .work ul .img {
   width: 284px;
   height: 150px;
@@ -395,19 +405,19 @@ h2 {
 
 .work ul .work1 .img {
   background-color: #f39ad3;
-  background-image: url(../assets/logo-work-1.png);
+  background-image: url(../assets/work1.png);
   background-position: 80% 80%;
 }
 
 .work ul .work2 .img {
   background-color: #424242;
-  background-image: url(../assets/logo-work-2.png);
+  background-image: url(../assets/nini.png);
   background-position: 50% 50%;
 }
 
 .work ul .work3 .img {
   background-color: #8ad7fa;
-  background-image: url(../assets/logo-work-3.png);
+  background-image: url(../assets/social.png);
   background-position: 50% 50%;
 }
 
@@ -427,10 +437,14 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about-me .aboutdetail img {
   width: 260px;
+  height: 335px;
   margin-right: 50px;
 }
 
@@ -439,7 +453,6 @@ h2 {
   width: 49%;
   line-height: 1.5em;
   color: #5e5e5e;
-  margin-top: 30px;
 }
 
 /*im footer*/
